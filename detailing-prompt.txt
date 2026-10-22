@@ -1,0 +1,59 @@
+A project '{targetProjectName}' (package {targetPackageName}, app
+{targetAppName}) was generated in this directory based on the donor
+'{donorRootPath}'. This is a Service-type application.
+
+The topic below may be given in Russian, but all generated content
+(category names, string resources, descriptions, benefit text) must
+be written in English.
+
+Your task:
+1. Come up with 4 to 6 categories for the topic: {topic}. Add string
+   resources for each category.
+   Resource naming convention: service_category_*category_name*_title.
+2. Go through every remaining string resource in strings.xml and
+   rephrase/replace it with new text that fits the topic and the
+   context of the surrounding resources. This is mandatory - do not
+   skip a resource just because its current wording could plausibly
+   fit any app; every resource must be rewritten for this specific
+   topic unless it falls under one of the two exceptions below.
+   Keep every replacement roughly as long as the text it replaces -
+   the screen layouts were built around those lengths, and longer text
+   wraps badly or gets truncated on a phone. Buttons, tabs, labels and
+   titles stay short, usually one to three words: do not turn a label
+   into a sentence, and do not add marketing filler, adjective chains,
+   or the company name where the original had none.
+   The only exceptions: do not touch string resources whose value is
+   already populated from the project configuration (app name, company
+   name, support link, etc.), and do not touch resources that are empty.
+3. Add values to ../data/model/ServiceCategory using the string
+   resources created above, and choose icons that match their content.
+4. Fill the service list in ../data/repository/ServiceRepository.kt.
+   Minimum 8 objects, maximum 15. Distribute objects evenly across
+   categories. Description length: 3 to 5 sentences. Choose the most
+   realistic price for each service.
+   Service name rules (you will look up a photo for each service using
+   its name, so names must be simple and findable):
+   - Keep names simple and generic - do not include the app name or
+     brand the service as belonging to this app.
+   - Name the service by the work actually performed, in wording that
+     something can be photographed for (e.g. "sofa upholstery
+     cleaning", "furniture assembly"), not by an abstract package,
+     tier, or plan name.
+   - Use singular form, unless the service is normally named in the
+     plural.
+   - Do not invent brand names, certifications, or trademarked
+     programme names; describe the general type of work instead.
+   For the image link field find a photo of this service being
+   performed. The app loads the URL straight into an image view, so it
+   must match one of these two shapes exactly:
+   https://images.unsplash.com/photo-<id>
+   https://images.pexels.com/photos/<id>/<name>.jpeg
+   A gallery page URL (unsplash.com/photos/..., pexels.com/photo/...)
+   returns HTML and will not load. Open the photo page you found and
+   take the real image source from it; do not invent ids. Verify with
+   `curl -sIL <url>`: keep the URL only on a 200 with an image/*
+   content-type, otherwise leave the field empty.
+5. Fill serviceBenefits in ../data/model/Benefit.kt. Create 3 objects.
+   Keep the text very short - a brief phrase (not a full sentence)
+   about a benefit (quality, warranty, necessity) in the context of
+   the topic. Choose icons that match the text.

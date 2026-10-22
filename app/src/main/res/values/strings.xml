@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Wrenchway Appointments</string>
+
+    <!-- shared -->
+    <string name="price">£%1$.2f</string>
+    <string name="price_per_hour">£%1$.2f / per hour</string>
+
+    <!-- top bar titles -->
+    <string name="ajth_top_bar_home_title">App Title</string>
+    <string name="ajth_top_bar_bookings_title">Bookings</string>
+    <string name="ajth_top_bar_checkout_title">Checkout</string>
+    <string name="ajth_top_bar_settings_title">Settings</string>
+    <string name="ajth_top_bar_service_details_title">Details</string>
+    <string name="back_icon_description">Back</string>
+
+    <!-- bottom bar navigation item titles -->
+    <string name="ajth_bottom_bar_nav_item_home_title">Home</string>
+    <string name="ajth_bottom_bar_nav_item_bookings_title">Bookings</string>
+    <string name="ajth_bottom_bar_nav_item_settings_title">Settings</string>
+
+    <!-- splash screen -->
+    <string name="ajth_app_logo_description">App logo</string>
+    <string name="splash_screen_tagline">Expert guidance you can rely on</string>
+
+    <!-- onboarding screen -->
+    <string name="ajth_page_expertise_title">Expert Consultants</string>
+    <string name="ajth_page_expertise_description">Work with vetted professionals in business, finance, and IT who bring real industry experience to every session.</string>
+
+    <string name="ajth_page_reliability_title">Reliable, Every Time</string>
+    <string name="ajth_page_reliability_description">Verified specialists, on-time sessions, and consistent support — dependable service you can count on.</string>
+
+    <string name="ajth_page_guarantee_title">Backed by Guarantees</string>
+    <string name="ajth_page_guarantee_description">Every consultation comes with transparent pricing, a satisfaction guarantee, and support after the session ends.</string>
+
+    <string name="next_button_title">Next</string>
+    <string name="start_button_title">Start</string>
+    <string name="skip_button_title">Skip</string>
+
+    <!-- %1$s – button label (Next/Start), %2$d and %3$d – current page number and total number of pages. -->
+    <string name="onboarding_button_progress">%1$s · %2$d/%3$d</string>
+
+    <!-- home screen -->
+    <string name="services_state_empty_primary_text">No services available</string>
+    <string name="button_view_details_text">View Details</string>
+    <string name="home_featured_label">Featured</string>
+    <string name="home_filter_label">Browse by category</string>
+    <string name="home_filter_all">All</string>
+    <string name="home_services_title">All Services</string>
+    <string name="home_services_count">%1$d services</string>
+    <!-- Slider page counter: the current slide number and total number of slides, with a leading zero. -->
+    <string name="home_slider_page_counter">%1$02d/%2$02d</string>
+
+    <!-- service categories -->
+
+    <!-- service details screen -->
+    <string name="service_image_description">Service image</string>
+    <string name="button_book_consultation_text">Book Consultation</string>
+    <string name="service_details_state_empty_primary_text">No information available about this service</string>
+    <string name="service_details_description_title">Description</string>
+    <string name="service_details_included_title">What\'s Included</string>
+
+    <!-- checkout screen -->
+    <string name="checkout_headline">Almost there</string>
+    <string name="checkout_invitation">Leave your name and email – we\'ll confirm the order and keep you posted on delivery.</string>
+    <string name="checkout_text_field_first_name">First Name</string>
+    <string name="checkout_text_field_last_name">Last Name</string>
+    <string name="checkout_text_field_email">Email</string>
+    <string name="checkout_email_supporting_text">The order confirmation goes to this address</string>
+    <string name="checkout_email_error_text">Enter a valid email, for example name@example.com</string>
+    <string name="checkout_text_field_date_time">Date &amp; Time</string>
+    <string name="checkout_date_time_placeholder">Select date and time</string>
+    <string name="checkout_date_time_dialog_time_label">Available times (8:00–16:00)</string>
+    <string name="checkout_date_time_dialog_confirm">Confirm</string>
+    <string name="checkout_date_time_dialog_cancel">Cancel</string>
+    <string name="button_confirm_booking_label">Confirm Booking</string>
+
+    <!-- checkout dialog -->
+    <string name="checkout_dialog_title">Thank You for Your Order!</string>
+    <string name="checkout_success_message">Your order has been successfully placed. Please hold on; our team will contact you shortly.</string>
+    <string name="checkout_dialog_confirm">Done</string>
+
+    <!-- bookings screen -->
+    <string name="bookings_state_empty_primary_text">You have no bookings yet</string>
+    <string name="booking_number">Booking #%1$s</string>
+    <string name="booking_customer">Customer: %1$s %2$s</string>
+    <string name="booking_customer_email">Email: %1$s</string>
+    <!-- Compact summary for the list item: number without the word "Booking" and time separated by a middle dot. -->
+    <string name="booking_number_and_time">#%1$s · %2$s</string>
+    <string name="button_cancel_booking_text">Cancel</string>
+    <string name="booking_status_confirmed">Confirmed</string>
+
+    <!-- cancel booking dialog -->
+    <string name="cancel_booking_dialog_title">Cancel Booking?</string>
+    <string name="clear_card_dialog_text">Are you sure you want to cancel your booking?</string>
+    <string name="cancel_booking_dialog_confirm">Yes, Cancel</string>
+    <string name="cancel_booking_dialog_dismiss">No, Keep It</string>
+
+    <!-- settings screen -->
+    <string name="settings_screen_app_label">Application</string>
+    <string name="settings_screen_version_label">Version</string>
+    <string name="ajth_app_version">1.0.0</string>
+
+    <string name="settings_screen_company_label">Company</string>
+    <string name="ajth_company_name">LUKASZ TRUCK FIX LTD</string>
+
+    <string name="settings_screen_customer_support_label">Customer Support</string>
+    <string name="ajth_customer_support_link">https://truck-repair-spares.top</string>
+</resources>

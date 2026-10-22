@@ -1,0 +1,31 @@
+AssetBasedConstructor
+donor: ServiceAppDonor (app.service.donor)
+project: Wrenchway Appointments (lukasztruckfix.garage.wrenchwayappointments)
+prefix: AJTH
+seed: 7444314569356393041
+app/src/main/java/app/service/donor/ui/composable/approot/bottombar -> v_signature
+app/src/main/java/app/service/donor/ui/composable/approot/topbar -> v_signature
+app/src/main/java/app/service/donor/ui/composable/screen/bookings/card -> v_booking_card_1
+app/src/main/java/app/service/donor/ui/composable/screen/bookings/dialog -> v_cancel_booking_dialog_1
+app/src/main/java/app/service/donor/ui/composable/screen/checkout/button -> v_checkout_button_2
+app/src/main/java/app/service/donor/ui/composable/screen/checkout/field -> v_checkout_field_1
+app/src/main/java/app/service/donor/ui/composable/screen/checkout/form -> v_checkout_form_3
+app/src/main/java/app/service/donor/ui/composable/screen/home/card -> v_card_big5
+app/src/main/java/app/service/donor/ui/composable/screen/home/filter -> v_filter2
+app/src/main/java/app/service/donor/ui/composable/screen/home/slider -> v_slider5
+app/src/main/java/app/service/donor/ui/composable/screen/onboarding/controls -> v_onboarding_controls_3
+app/src/main/java/app/service/donor/ui/composable/screen/onboarding/icon -> v_onboarding_icon_2
+app/src/main/java/app/service/donor/ui/composable/screen/onboarding/text -> v_onboarding_text_1
+app/src/main/java/app/service/donor/ui/composable/screen/servicedetails/benefits -> v_servicedetails_benefits_8
+app/src/main/java/app/service/donor/ui/composable/screen/servicedetails/button -> v_servicedetails_button_3
+app/src/main/java/app/service/donor/ui/composable/screen/servicedetails/image -> v_servicedetails_image_1
+app/src/main/java/app/service/donor/ui/composable/screen/servicedetails/includedlist -> v_servicedetails_includedlist_5
+app/src/main/java/app/service/donor/ui/composable/screen/servicedetails/layout -> v_servicedetails_layout_2
+app/src/main/java/app/service/donor/ui/composable/screen/servicedetails/summary -> v_servicedetails_summary_2
+app/src/main/java/app/service/donor/ui/composable/screen/settings/card -> v_settings_card_4
+app/src/main/java/app/service/donor/ui/composable/screen/shared/loadingplaceholder -> v_loadingplaceholder_1
+app/src/main/java/app/service/donor/ui/composable/screen/shared/sectiontitle -> v_section_title_6
+app/src/main/java/app/service/donor/ui/composable/screen/splash -> v_splash_4
+app/src/main/java/app/service/donor/ui/theme -> v_cp4633
+app/src/main/java/app/service/donor/ui/theme/dimens -> v_strict
+app/src/main/java/app/service/donor/ui/theme/typography -> v_font_familiar
